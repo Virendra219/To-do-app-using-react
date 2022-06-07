@@ -30,7 +30,7 @@ const Form = (props) => {
           type="text"
           name="add-task"
           id="add-task"
-          pattern="[a-z0-9]{1,}"
+          pattern="[a-zA-Z0-9]{1,}"
           placeholder={placeHolderText}
           value={taskName}
           onChange={handleTaskChange}
